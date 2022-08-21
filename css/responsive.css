@@ -1,0 +1,118 @@
+@media screen and (max-width: 1300px) {
+  .main .under .right-side .header {
+    padding-right: 84px;
+  }
+  .main .under .right-side .premium {
+    padding: 1.1rem 84px 0.7rem 3%;
+  }
+  .main .under .right-side footer {
+    padding-right: 84px;
+  }
+  .main .under .right-side footer .left-side {
+    gap: 60px;
+  }
+  .main .under .right-side footer .left-side ul li {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 1023.5px) {
+  .main .under .sidebar .cookies {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 180px;
+  }
+  .main .under .right-side .header .next-back span:last-child {
+    display: none;
+  }
+}
+@media screen and (max-width: 850px) {
+  .main .under .right-side .header .right button:last-child {
+    margin-right: 0;
+  }
+  .main .under .right-side .header .right ul {
+    display: none;
+  }
+  .main .under .right-side .header .right .menu-open {
+    display: block;
+  }
+  .main .under .right-side .content-container section header .see-all {
+    margin-right: 60px;
+  }
+  .main .under .right-side footer .brands {
+    flex-direction: column;
+    margin-right: 100px;
+  }
+  .main .under .right-side footer .left-side {
+    gap: 25px;
+  }
+  .main .under .right-side footer .left-side ul li {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 765px) {
+  .main .under .right-side .header .right .menu-open,
+.main .under .right-side .header .right .menu-close {
+    margin-right: 60px;
+  }
+  .main .under .right-side .content-container section header .see-all {
+    margin-right: 80px;
+  }
+  .main .under .right-side .premium {
+    display: none;
+  }
+  .main .under .right-side .footer {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 650px) {
+  html {
+    font-size: 50%;
+  }
+  .main .under .sidebar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 120px;
+  }
+  .main .under .sidebar .logo svg {
+    height: 32px;
+  }
+  .main .under .sidebar ul li svg {
+    width: 25px;
+    height: 25px;
+  }
+  .main .under .sidebar ul li .text {
+    display: none;
+  }
+  .main .under .sidebar ul li .fav,
+.main .under .sidebar ul li .create {
+    width: 30px;
+    height: 30px;
+  }
+  .main .under .right-side {
+    margin-left: 150px;
+  }
+  .main .under .right-side .header .right button:last-of-type {
+    margin-right: 20px;
+  }
+  .main .under .right-side .header .right .menu {
+    right: 28%;
+  }
+  .main .under .right-side .header .right .menu a svg {
+    margin-left: 100px;
+  }
+  .main .under .right-side .content-container section header .see-all {
+    margin-right: 20px;
+  }
+  .main .under .right-side footer {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .main .under .right-side footer .brands {
+    flex-direction: row;
+  }
+  .main .under .right-side footer .left-side {
+    margin-right: 70px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

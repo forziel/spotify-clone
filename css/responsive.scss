@@ -1,0 +1,244 @@
+@media screen and (max-width:1300px){
+    .main{
+        .under{
+            .right-side{
+                .header{
+                    padding-right: 84px;
+                }
+                .content-container{
+                    section{
+                        
+                        .content{
+                            
+                            .card{
+                                &:last-child{
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+                .premium{
+                    padding: 1.1rem 84px 0.7rem 3%;
+                }
+                footer{
+                    padding-right: 84px;
+                    .left-side{
+                        gap: 60px;
+                        ul{
+                            li{
+                                font-size: 1.4rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1023.5px){
+    .main{
+        .under{
+            .sidebar{
+                .cookies{
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    margin-top: 180px;
+                    a{
+                        
+                    }
+                }
+            }
+            .right-side{
+                .header{
+                    .next-back{
+                        span{
+                            &:last-child{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+                .content-container{
+                    section{
+                        .content{
+                            .card{
+                                &:last-child{
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:850px){
+    .main{
+        .under{
+            .right-side{
+                .header{
+                    .right{
+                        button{
+                            &:last-child{
+                                margin-right: 0;
+                            }
+                        }
+                        ul{
+                            display: none;
+                        }
+                        .menu-open{
+                            display: block;
+                        }
+                    }
+                }
+                .content-container{
+                    section{
+                        header{
+                            .see-all{
+                                margin-right: 60px;
+                            }
+                        }
+                    }
+                }
+                footer{
+                    .brands{
+                        flex-direction: column;
+                        margin-right: 100px;
+                    }
+                    .left-side{
+                        gap: 25px;
+                        ul{
+                            li{
+                                font-size: 1.3rem;
+                            }
+                        }
+                    }
+                }
+                .content-container{
+                    section{
+                        .content{
+                            .card{
+                                &:last-child{
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:765px){
+    .main{
+        .under{
+            .right-side{
+                .header{
+                    .right{
+                        .menu-open,
+                        .menu-close{
+                            margin-right: 60px;
+                        }
+                    }
+                }
+                .content-container{
+                    section{
+                        header{
+                            .see-all{
+                                margin-right: 80px;
+                            }
+                        }
+                    }
+                }
+                .premium{
+                    display: none;
+                }
+                .footer{
+                    height: 200px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:650px){
+    html{
+        font-size: 50%;
+    }
+    .main{
+        .under{
+            
+            .sidebar{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                width: 120px;
+                .logo{
+                    svg{
+                        height: 32px;
+                    }
+                }
+                ul{
+                    li{
+                        svg{
+                            width: 25px;
+                            height: 25px;
+                        }
+                        .text{
+                            display: none;
+                        }
+                        .fav,
+                        .create{
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+            }
+            .right-side{
+                margin-left: 150px;
+                .header{
+                    .right{
+                        button{
+                            &:last-of-type{
+                                margin-right: 20px;
+                            }
+                        }
+                        .menu{
+                            right: 28%;
+                            a{
+                                svg{
+                                    margin-left: 100px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .content-container{
+                    section{
+                        header{
+                            .see-all{
+                                margin-right: 20px;
+                            }
+                        }
+                    }
+                }
+                footer{
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    .brands{
+                        flex-direction: row;
+                    }
+                    .left-side{
+                            margin-right: 70px;
+                    }
+                }
+            }
+            
+        }
+    }
+}
